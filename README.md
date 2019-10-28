@@ -1,4 +1,13 @@
-### 命令
+### 正确使用GitHub的方法
+> 1. fork 别人的仓库到自己的Github;
+> 2. clone 自己Github下的仓库；
+> 3. 在本地仓库修改代码后，push到自己的Github;
+> 4. 发起pull request 到别人的仓库。
+
+### 为什么要想修改开源仓库中的代码，必须先fork？
+> + 因为直接clone别人的仓库后，想要提交代码时，需要知道对方github的账号和密码。
+
+### 命令行
 远程仓库
 > + 添加：git remote add 自定义仓库名 远程仓库地址
 > + 查看：git remote -v
@@ -16,6 +25,10 @@
 > + 从工作区添加到暂存区：git add *
 > + 从暂存区添加到版本库：git commit -m "备注"
 > + 版本回退：git reset --hard commit号
+
+> + 拉取上游仓库但不合并：git fetch
+> + 拉取上游仓库并合并：git pull
+> + 上传到远程仓库：git push 远程仓库名 远程仓库分支:本地分支
 
 分支管理
 > + 创建分支：git branch 分支名
