@@ -5,3 +5,19 @@
 > + 删除：git remote -rm 仓库名
 > + 重命名：git remote rename 旧名字 新名字
 
+上游仓库
+> + 查看：git branch -vv
+> + 切换或绑定：git branch --set-upstream-to=远程仓库名/分支名 本地分支名 
+
+本地仓库
+> + 状态：git status
+> + 日志：git reflog
+
+> + 从工作区添加到暂存区：git add *
+> + 从暂存区添加到版本库：git commit -m "备注"
+> + 版本回退：git reset --hard commit号
+
+> + 创建分支：git branch 分支名
+> + 切换分支：git checkout 分支名
+> + ***上两步合并：git checkout -b 分支名***
+> + 分支合并：git merge 分支名
