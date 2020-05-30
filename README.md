@@ -21,6 +21,7 @@
 上游仓库
 > + 查看：git branch -vv
 > + 切换或绑定：git branch --set-upstream-to=远程仓库名/分支名 本地分支名 
+>> 当出现requested upstream branch 'origin/master' does not exist，使用如下命令解决：git pull origin master --allow-unrelated-histories
 
 本地仓库
 > + 状态：git status
