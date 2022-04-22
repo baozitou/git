@@ -48,3 +48,5 @@
 > + 删除远程分支：需要两步
 >> 1. git branch -r -d 分支名
 >> 2. git push origin 空格:分支名 
+
+Test Pipline
